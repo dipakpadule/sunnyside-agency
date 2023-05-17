@@ -350,7 +350,7 @@ $White: hsl(0, 0%, 100%);
 .sunnyside{
 
     .banner{
-        height: 100vh;
+        height: 90vh;
         background: url('./images/desktop/image-header.jpg');
         background-repeat: no-repeat;
         background-position: center bottom;
@@ -405,9 +405,9 @@ $White: hsl(0, 0%, 100%);
             align-items: center;
             justify-content: center;
             text-align: center;
-            flex-grow: 1;
+            flex-grow: 0.5;
             strong{
-                font-size: 2.5em;
+                font-size: 3.7em;
                 color: $White;
                 text-transform: uppercase;
                 letter-spacing: 0.1em;

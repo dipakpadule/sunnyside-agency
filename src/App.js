@@ -33,7 +33,7 @@ function App() {
               <li> <a href='/'>About</a> </li>
               <li> <a href='/'>Services</a> </li>
               <li> <a href='/'>Projects</a> </li>
-              <li> <button>Create</button> </li>
+              <li> <button>Contact</button> </li>
             </ul>
           </nav>
         </section>
