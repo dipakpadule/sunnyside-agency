@@ -78,23 +78,25 @@ function App() {
 
       <section className='clients'>
         <strong>Client testimonials</strong>
-          <div className='client'>
-              <img src={emily} alt=''/>
-              <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-              <strong>Emily R.</strong>
-              <span>Marketing Director</span>
-          </div>
-          <div className='client'>
-              <img src={thomas} alt=''/>
-              <p> Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
-              <strong>Thomas S.</strong>
-              <span>Chief Operating Officer</span>
-          </div>
-          <div className='client'>
-              <img src={jennie} alt=''/>
-              <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-              <strong>Jennie F.</strong>
-              <span>Business Owner</span>
+          <div className='cli'>
+            <div className='client'>
+                <img src={emily} alt=''/>
+                <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+                <strong>Emily R.</strong>
+                <span>Marketing Director</span>
+            </div>
+            <div className='client'>
+                <img src={thomas} alt=''/>
+                <p> Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
+                <strong>Thomas S.</strong>
+                <span>Chief Operating Officer</span>
+            </div>
+            <div className='client'>
+                <img src={jennie} alt=''/>
+                <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+                <strong>Jennie F.</strong>
+                <span>Business Owner</span>
+            </div>
           </div>
       </section>
 
@@ -109,16 +111,16 @@ function App() {
         <img src={logo} alt=''/>
         <nav className='footernav'>
           <ul>
-              <li> <a href='/'>About</a> </li>
-              <li> <a href='/'>Services</a> </li>
-              <li> <a href='/'>Projects</a> </li>
+              <li> <a className='a' href='/'>About</a> </li>
+              <li> <a className='a' href='/'>Services</a> </li>
+              <li> <a className='a' href='/'>Projects</a> </li>
           </ul>
         </nav>
         <div className='socialmedia'>
-            <img src={facebook} alt=''/>
-            <img src={insta} alt=''/>
-            <img src={twitter} alt=''/>
-            <img src={pintrest} alt=''/>
+            <img className='a' src={facebook} alt=''/>
+            <img className='a' src={insta} alt=''/>
+            <img className='a' src={twitter} alt=''/>
+            <img className='a' src={pintrest} alt=''/>
         </div>
       </section>
 
