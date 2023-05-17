@@ -56,6 +56,10 @@ $White: hsl(0, 0%, 100%);
                             background: $Yellow;
                             margin-bottom: 2.5em;
                         }
+                        button:hover{
+                            cursor: pointer;
+                            background: #96d2f0;
+                        }
                     }
                 }
             }
@@ -358,32 +362,41 @@ $White: hsl(0, 0%, 100%);
             margin: 2rem 1.5rem 0 1.5rem;
             display: flex;
             justify-content: space-between;
+
+            #logo{
+                height: 2.5rem;
+            }
+            #menub{
+                display: none; //element not required anymore
+            }
             .navbar{
                 visibility: visible;
-                position: absolute;
-                text-align: right;
-                top: 0;
-                right: 0;
+                position: static;
+                text-align: center;
                 background: none;
-                width: 87vw;
+                width: auto;
                 ul{
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
                     li{
-                        margin-top: 2em;
+                        margin: 0 3.12rem 0 0;
                         a{
-                            
+                            color: $White;
                         }
                         button{
-                            font-size: 1.1em;
-                            padding: 1.25em 2em;
-                            border-radius: 1.62em;
+                            width: 9rem;
+                            height: 3.4rem;
+                            font-size: 1.125em;
+                            font-family: $font-family2;
+                            text-transform: uppercase;
+                            padding: 0;
+                            border-radius: 1.25em;
                             background: $White;
-                            margin-bottom: 2.5em;
+                            margin-bottom: 0em;
                         }
                     }
                 }
-            }
-            .active{
-                visibility: visible;
             }
         }
         .bannertitle{

@@ -26,8 +26,8 @@ function App() {
     
       <section className='banner'>
         <section className='header'>
-          <img src={logo} alt=''/>
-          <img src={menubar} alt='' onClick={onClickHandle}/>
+          <img id='logo' src={logo} alt=''/>
+          <img id='menub' src={menubar} alt='' onClick={onClickHandle}/>
           <nav className={`navbar ${dp ? "active": ""}`}>
             <ul>
               <li> <a href='/'>About</a> </li>
